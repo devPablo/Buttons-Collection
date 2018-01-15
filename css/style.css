@@ -65,21 +65,26 @@ p.button-text {
 }
 
 .arduino-button-size {
-  width: 240px;
+  width: 200px;
   height: 40px;
 }
 
 .arduino-button-front {
   background-color: #F39C12;
-  position: absolute;
+  box-shadow: 0px 5px 0px #D05500;
+  position: relative;
   text-align: center;
-  top: 48px;
   transition: all 0.3s ease;
+  top: 0px;
 }
 
-.arduino-button-back {
-  background-color: #D35400;
-  position: relative;
-  z-index: -1;
+.arduino-button-front:hover {
+  box-shadow: 0 3px #D05500;
+  cursor: pointer;
+  top: 3px;
+}
+.arduino-button-front:active {
+  box-shadow: 0 0px 0 #D05500;
+  top: 6px;
 }
 /*---------------------------*/
