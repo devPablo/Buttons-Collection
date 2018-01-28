@@ -177,3 +177,42 @@ p.button-text {
   outline: 0;
 }
 /*---------------------------*/
+
+
+
+/* Bottom Left-Right Button */
+.bottomLR-button p {
+  transition: all 0.3s ease-in-out;
+}
+
+.bottomLR-button {
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+}
+
+.bottomLR-button::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #D84315;
+  transition: all 0.3s ease-in-out;
+}
+
+.bottomLR-button:hover::after {
+  width: 100%;
+}
+
+.bottomLR-button:hover {
+  cursor: pointer;
+}
+
+.bottomLR-button:hover p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bottomLR-button:focus {
+  outline: 0;
+}
+/*---------------------------*/
