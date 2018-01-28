@@ -9,8 +9,9 @@ table {
 }
 
 td {
-  padding: 20px;
+  padding: 25px;
 }
+
 /*---------------------------*/
 
 
@@ -24,6 +25,7 @@ p.button-text {
   letter-spacing: 1.25px;
   display: inline-block;
   text-transform: uppercase;
+  margin: 0;
 }
 /*---------------------------*/
 
@@ -101,7 +103,7 @@ p.button-text {
   border: 1px solid #4CAF50;
   border-radius: 5px;
   background-color: transparent;
-  padding: 0 15px;
+  padding: 12px 15px;
   transition: all 0.4s ease;
 }
 
@@ -115,6 +117,63 @@ p.button-text {
 }
 
 .modern-button:focus {
+  outline: 0;
+}
+/*---------------------------*/
+
+
+
+/* Cenfotec Button */
+.cenfotec-button p {
+  color: #E74529;
+  transition: all 0.4s ease;
+}
+
+.cenfotec-button {
+  border: 1px solid #E74529;
+  border-radius: 5px;
+  background-color: rgba(231, 69, 41, 0.15);
+  padding: 12px 20px;
+  transition: all 0.4s ease;
+}
+
+.cenfotec-button:hover p {
+  color: #FFF;
+}
+
+.cenfotec-button:hover {
+  color: #FFF;
+  background-color: #E74529;
+  cursor: pointer;
+}
+
+.cenfotec-button:focus {
+  outline: 0;
+}
+/*---------------------------*/
+
+
+
+/* Twitter Follow Button */
+.follow-button p {
+  color: #0277BD;
+  transition: all 0.4s ease;
+}
+
+.follow-button {
+  border: 1px solid #0277BD;
+  border-radius: 25px;
+  background-color: transparent;
+  padding: 8px 25px;
+  transition: all 0.4s ease;
+}
+
+.follow-button:hover {
+  background-color: rgba(2, 119, 189, 0.1);
+  cursor: pointer;
+}
+
+.follow-button:focus {
   outline: 0;
 }
 /*---------------------------*/
