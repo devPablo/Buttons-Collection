@@ -2,6 +2,8 @@ body {
   background-color: #171820;
 }
 
+
+
 /* Table */
 
 table {
@@ -12,7 +14,6 @@ td {
   padding: 25px;
   position: relative;
 }
-
 /*---------------------------*/
 
 
@@ -253,6 +254,4 @@ p.button-text {
 .backgroundTB-button:focus {
   outline: 0;
 }
-
-
 /*---------------------------*/
