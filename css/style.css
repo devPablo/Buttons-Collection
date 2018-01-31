@@ -220,7 +220,7 @@ p.button-text {
 
 
 
-/* Bottom Left-Right Button */
+/* Background Top-Bottom Button */
 .backgroundTB-button p {
   transition: all 0.3s ease-in-out;
 }
